@@ -1,1 +1,2 @@
-nothing interesting rly
+unjustified complexity
+React, Redux
