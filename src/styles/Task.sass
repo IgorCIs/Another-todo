@@ -1,0 +1,33 @@
+.task
+    font-size: 20px
+    with: 100%
+    border-bottom: 1px solid grey
+    display: flex
+    padding: 10px 5px
+    justify-content: space-between
+    align-items: center
+
+    .col
+        align-items: center
+        display: flex
+
+    .mark
+        width: 20px
+        height: 20px
+        border-radius: 50%
+        border: 1px solid black
+        cursor: pointer
+
+    .text
+        margin-left: 20px
+
+    .remove
+        cursor: pointer
+        margin-right: 20px
+
+    &.completed
+        .text
+            text-decoration: line-through
+        .mark
+            background: grey
+    
